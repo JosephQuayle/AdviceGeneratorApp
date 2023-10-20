@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,10 +88,26 @@ button {
   cursor: pointer;
 }
 
+#advice {
+  font-size: 1.3rem;
+}
+
+.advice-no {
+  font-size: 0.8rem;
+}
+
 @media only screen and (min-width: 600px) {
   .container {
     max-width: 600px;
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  #advice {
+    font-size: 2rem;
+  }
+
+  .advice-no {
+    font-size: 1rem;
   }
 }
